@@ -1,0 +1,8 @@
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+//prints the what the type of data store in the variable is
+//in this instance, prints "string"
+
+newVariable = 1
+console.log(typeof newVariable);
+//in this istance, prints "number"
