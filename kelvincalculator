@@ -1,0 +1,21 @@
+let kelvin = 10
+//kelvin set as an adjustable variable, a let
+
+let celcius = (kelvin - 273)
+//this converts kelvin to celcius
+
+let fahrenheit = celcius*(9/5) + 32
+//converts celcius to farenheit 
+
+fahrenheit = Math.floor(fahrenheit)
+//this rounds the decimal point down to the nearest integer
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`)
+//prints the temperature in fahrenheit
+
+let newton = celcius*(33/100)
+//converts celcius to newton
+newton = Math.floor(newton)
+//rounds newton down to the nearest integer
+console.log(`The termperature is ${newton} degress Newton`)
+//prints the temperature in newton
