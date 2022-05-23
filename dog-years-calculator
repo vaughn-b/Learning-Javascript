@@ -1,0 +1,24 @@
+let myAge = 32
+//sets my age as variable
+
+let earlyYears = 2
+//the first two years of a dogs life
+
+earlyYears *= 10.5
+//the first two years of a dogs life are the equivilate onf 10.5 human years
+
+let laterYears = myAge - 2
+//since we're accounting for the first two years with early years, here we subtract 2 from myAge and set the result as a variable
+
+laterYears *= 4
+//ever year is the equivilant of 4 years, so here to multiply laterYears by 4
+
+let myAgeInDogYears = myAge + laterYears
+//this adds together the stored number of years as a new variable
+
+let myName = 'Vaughn'
+myName = myName.toLowerCase()
+//stores name as a variable, and then again as a variable in all lower casees
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+// prints my name, human age, and dog age in a readable format
