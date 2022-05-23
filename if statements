@@ -1,0 +1,8 @@
+let sale = true
+//makes the sale variable equal to true
+sale = false
+//changes the boolean value of sale to false
+if (sale){
+  console.log('Time to buy!')
+}
+//if sale were true, would have printed console log statement
