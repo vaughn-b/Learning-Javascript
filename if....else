@@ -1,0 +1,10 @@
+let sale = true;
+
+sale = false;
+
+if(sale) {
+  console.log('Time to buy!');
+  } else {
+    console.log('Time to wait for a sale.')
+  } //this makes it so when sale is false, it prints a different statement
+  //worth noting: if only prints if sale = true
