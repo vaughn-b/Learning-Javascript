@@ -1,0 +1,5 @@
+let hungerLevel = 7
+if(hungerLevel > 7) //checks if statement is true
+  {console.log('Time to eat!')//this prints if the statement is true
+  } else {
+   console.log('We can eat later!')}//if statement is false, this prints
