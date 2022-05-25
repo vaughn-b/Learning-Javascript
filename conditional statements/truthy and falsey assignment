@@ -1,0 +1,7 @@
+let tool = 'marker';
+
+// Use short circuit evaluation to assign  writingUtensil variable below:
+let writingUtensil = tool || 'pen';
+//if tool were evaluated to false, console log would print pen for writingUtensil
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);
