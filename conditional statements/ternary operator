@@ -1,3 +1,5 @@
+//ternary operators let us make shorthand versions of if...else statements
+
 let isLocked = false;
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
