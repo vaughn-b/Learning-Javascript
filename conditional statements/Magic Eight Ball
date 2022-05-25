@@ -1,0 +1,40 @@
+let userName = 'Vaughn';
+userName === '' ? console.log('Hello!') : console.log(`Hello ${userName}!`);
+let userQuestion = 'Will I find a decent paying remote job writing JavaScript?';
+console.log(`${userName} ask '${userQuestion}'`);
+let randomNumber = Math.floor(Math.random() * 8);
+//this variable is the diceroll that we use to determine the reply
+let eightBall = '';
+//creates a blank variable that we'll fill later
+switch (randomNumber) {
+  case 0 :
+    eightBall = 'Outlook not so good';
+    break;
+  case 1 :
+    eightBall = 'It is decidedly so';
+    break;
+  case 2 :
+    eightBall = 'Cannot predict now';
+    break;
+  case 3 :
+    eightBall = 'My sources say no';
+    break;    
+  case 4 :
+    eightBall = 'Do not count on it';
+    break;
+  case 5 :
+    eightBall = 'Outlook not so good';
+    break;
+  case 6 :
+    eightBall = 'It is decidedly so';
+    break;
+  case 7 :
+    eightBall = 'Signs point to yes';
+    break;    
+  case 8 :
+    eightBall = 'It is certain';
+    break;    
+};
+//determines the string that is given to the eightball
+//based on the randomNumber variable we made earlier
+console.log (`The Magic Eight ball hears your question and replies: '${eightBall}'`);
