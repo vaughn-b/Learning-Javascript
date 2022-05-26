@@ -1,0 +1,9 @@
+function getReminder() {
+  console.log('Water the plants.');
+}
+//creates a function that when called, performs the written task
+function greetInSpanish (){
+  console.log('Buenas Tardes.')
+}
+greetInSpanish () //prints Buenas Tardes
+getReminder () //pritns water the plants
