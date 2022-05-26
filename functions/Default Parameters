@@ -1,0 +1,9 @@
+function makeShoppingList(item1 = "milk", item2 = "bread", item3 = "eggs") {
+ //this allows items to have a default value when the function is called
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+makeShoppingList();
+makeShoppingList('cheese', 'wine', 'crackers')
+//but you're still able to replace those values by inputting something in the ()
