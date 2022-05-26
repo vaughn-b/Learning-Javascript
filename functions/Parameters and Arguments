@@ -1,0 +1,6 @@
+function sayThanks(name) {
+  console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
+}
+sayThanks('Cole');
+//prints the log with Cole in place of name
+//important to pass Cole as a string because otherwise it looks for a function called Cole and doesn't process it as the name to be placed into the call log
